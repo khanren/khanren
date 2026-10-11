@@ -1,37 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" fill="none">
-  <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071521"/>
-      <stop offset="0.58" stop-color="#0B2030"/>
-      <stop offset="1" stop-color="#103A43"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#9BC7D2" stroke-opacity="0.07"/>
-    </pattern>
-    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#66E0D0"/>
-      <stop offset="1" stop-color="#3AA8C2"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-label="Tye Khan Ren. Cybersecurity. Offensive thinking, defensive experience. Associate, Cyber Assurance at Vcyberiz, Kuala Lumpur, Malaysia.">
+  <title>Tye Khan Ren. Cybersecurity. Offensive thinking, defensive experience. Associate, Cyber Assurance at Vcyberiz, Kuala Lumpur, Malaysia.</title>
 
-  <rect width="1200" height="260" rx="18" fill="url(#background)"/>
-  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
-  <rect width="6" height="260" rx="3" fill="url(#accent)"/>
+<defs>
+  <linearGradient id="surface" x1="0" y1="0" x2="1200" y2="380" gradientUnits="userSpaceOnUse"><stop stop-color="#101923"/><stop offset="1" stop-color="#101E2D"/></linearGradient>
+  <linearGradient id="shield" x1="918" y1="128" x2="1042" y2="285" gradientUnits="userSpaceOnUse"><stop stop-color="#263E53"/><stop offset="1" stop-color="#152433"/></linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#65809A" opacity="0.2"/></pattern>
+</defs>
+<style>
+  .orbit { transform-origin: 980px 207px; animation: orbit 30s linear infinite; }
+  .cursor { animation: blink 1.8s steps(1) infinite; }
+  @keyframes orbit { to { transform: rotate(360deg); } }
+  @keyframes blink { 0%, 60%, 100% { opacity: 1; } 61%, 99% { opacity: .15; } }
+  @media (prefers-reduced-motion: reduce) { .orbit, .cursor { animation: none; } }
+</style>
+<rect x="1" y="1" width="1198" height="378" rx="18" fill="url(#surface)" stroke="#304357"/>
+<path d="M746 45H1199V361Q1199 379 1181 379H746Z" fill="url(#dots)"/>
+<path d="M1 45H1199" stroke="#2A3A4B"/>
+<g fill="#526579"><circle cx="25" cy="24" r="4"/><circle cx="40" cy="24" r="4"/><circle cx="55" cy="24" r="4"/></g>
+<text x="76" y="29" font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.1" fill="#A6B7C8">khanren / profile</text>
+<text x="1164" y="29" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.8" fill="#BFE78C">CYBERSECURITY</text>
+<text x="44" y="88" font-family="Consolas,Menlo,monospace" font-size="14" letter-spacing="3" fill="#BFE78C">HELLO, I'M</text>
+<text x="40" y="169" font-family="Arial,Helvetica,sans-serif" font-size="76" font-weight="700" letter-spacing="-3.5" fill="#F1F6FC">Tye Khan Ren<tspan class="cursor" fill="#BFE78C">_</tspan></text>
+<text x="44" y="225" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600" fill="#F1F6FC">Offensive thinking.</text>
+<text x="44" y="263" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="600" fill="#9FBDF0">Defensive experience.</text>
+<rect x="44" y="296" width="94" height="27" rx="6" fill="#24332E"/>
+<text x="91" y="314" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#C9EF9A">Vcyberiz</text>
+<text x="152" y="315" font-family="Arial,Helvetica,sans-serif" font-size="17" fill="#C2CEDB">Associate, Cyber Assurance</text>
+<text x="44" y="353" font-family="Consolas,Menlo,monospace" font-size="13" fill="#A6B7C8">KUALA LUMPUR, MALAYSIA</text>
+<path d="M730 83V330" stroke="#2A3D50"/>
+<circle cx="980" cy="207" r="124" stroke="#2B4156"/>
+<circle class="orbit" cx="980" cy="207" r="113" stroke="#6F94BD" stroke-width="2" stroke-dasharray="2 16" opacity="0.65"/>
+<circle cx="980" cy="207" r="96" stroke="#344A60"/>
+<path d="M885 193A96 96 0 0 1 1018 119" stroke="#EF929C" stroke-width="4" stroke-linecap="round"/>
+<path d="M1075 221A96 96 0 0 1 942 295" stroke="#87B9FA" stroke-width="4" stroke-linecap="round"/>
+<path d="M980 130 1042 155V203C1042 241 1020 268 980 287C940 268 918 241 918 203V155Z" fill="url(#shield)" stroke="#90ADC9" stroke-width="1.5"/>
+<path d="M980 145 1028 164V202C1028 232 1012 253 980 270C948 253 932 232 932 202V164Z" stroke="#4C6984"/>
+<text x="980" y="210" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="26" font-weight="700" letter-spacing="3" fill="#F0F6FD">TKR</text>
+<path d="m966 228 9 9 20-21" stroke="#C9EF9A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="804" y="80" width="104" height="29" rx="6" fill="#232330" stroke="#664855"/>
+<text x="856" y="99" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#F1AAB3">OFFENSE</text>
+<path d="M908 94H930L944 108" stroke="#B17582"/>
+<rect x="1050" y="299" width="104" height="29" rx="6" fill="#1A2B40" stroke="#466482"/>
+<text x="1102" y="318" text-anchor="middle" font-family="Consolas,Menlo,monospace" font-size="12" letter-spacing="1.5" fill="#A4C8F9">DEFENSE</text>
+<path d="M1050 313H1035L1020 299" stroke="#6E9BC9"/>
+<text x="1155" y="354" text-anchor="end" font-family="Consolas,Menlo,monospace" font-size="12" fill="#8EA6BB">khanren00.com</text>
 
-  <path d="M690 260 940 10h260v250H690Z" fill="#2EC4B6" fill-opacity="0.045"/>
-  <path d="M780 260 1035 5M900 260l255-255M1020 260l180-180" stroke="#8FE5DB" stroke-opacity="0.12"/>
-
-  <g stroke="#70D7CE" stroke-opacity="0.46" stroke-width="1.5">
-    <path d="m836 62 93 42 82-48 89 51 62-31"/>
-    <path d="m800 142 105-28 79 55 96-37 82 56"/>
-    <path d="m860 220 83-48 93 47 91-54 70 27"/>
-    <path d="m929 104-24 10-45 106m151-158-27 107m116-56-20 93m82-124-56 151"/>
-  </g>
-  <g fill="#91F0E4">
-    <circle cx="836" cy="62" r="3"/><circle cx="929" cy="104" r="4"/><circle cx="1011" cy="56" r="3"/>
-    <circle cx="1100" cy="107" r="4"/><circle cx="1162" cy="76" r="3"/><circle cx="800" cy="142" r="3"/>
-    <circle cx="905" cy="114" r="3"/><circle cx="984" cy="169" r="4"/><circle cx="1080" cy="132" r="3"/>
-    <circle cx="1162" cy="188" r="4"/><circle cx="860" cy="220" r="3"/><circle cx="943" cy="172" r="4"/>
-    <circle cx="1036" cy="219" r="3"/><circle cx="1127" cy="165" r="4"/><circle cx="1197" cy="192" r="3"/>
-  </g>
 </svg>

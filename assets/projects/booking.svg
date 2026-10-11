@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="164" viewBox="0 0 600 164" fill="none" role="img" aria-label="Web Experience">
+  <title>Web Experience</title>
+  <rect width="600" height="164" rx="10" fill="#14212E"/>
+<path d="M16 163H584" stroke="#E5B995" stroke-opacity=".4"/>
+<text x="24" y="87" font-family="Arial,Helvetica,sans-serif" font-size="60" font-weight="700" letter-spacing="-3" fill="#E5B995">04</text>
+<text x="26" y="121" font-family="Consolas,Menlo,monospace" font-size="11" letter-spacing="1.3" fill="#E5B995">WEB EXPERIENCE</text>
+<path d="M215 31V132" stroke="#304357"/><rect x="267" y="27" width="257" height="113" rx="9" fill="#372E2C" stroke="#C69C7F"/><path d="M267 51H524" stroke="#C69C7F"/><g fill="#C69C7F"><circle cx="281" cy="39" r="2"/><circle cx="290" cy="39" r="2"/><circle cx="299" cy="39" r="2"/></g><path d="M284 70H358M284 81H336M284 93H350" stroke="#C69C7F" stroke-linecap="round"/><rect x="284" y="106" width="59" height="18" rx="4" fill="#D6AD89"/><rect x="386" y="65" width="116" height="58" rx="5" fill="#493A32" stroke="#C69C7F"/><path d="M386 82H502M415 82V123M444 82V123M473 82V123M386 102H502" stroke="#9A7964"/><path d="m450 91 4 4 8-9" stroke="#F4D4B5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

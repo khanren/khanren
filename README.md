@@ -1,112 +1,85 @@
-<picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.svg">
-  <img src="assets/profile-banner.svg" alt="Tye Khan Ren — Cybersecurity. Offensive thinking, defensive experience. Associate, Cyber Assurance at Vcyberiz, Kuala Lumpur, Malaysia." width="100%">
-</picture>
+```text
+ _  ___                  ____
+| |/ / |__   __ _ _ __  |  _ \ ___ _ __
+| ' /| '_ \ / _` | '_ \ | |_) / _ \ '_ \
+| . \| | | | (_| | | | ||  _ <  __/ | | |
+|_|\_\_| |_|\__,_|_| |_||_| \_\___|_| |_|
+```
 
-<p>
-  <a href="https://khanren00.com"><img src="assets/links/portfolio.svg" alt="Visit my portfolio" width="138" height="40"></a>
-  <a href="https://www.linkedin.com/in/khan-ren-tye-36a16424b/"><img src="assets/links/linkedin.svg" alt="Connect with Tye Khan Ren on LinkedIn" width="136" height="40"></a>
-  <a href="mailto:khanren11@gmail.com"><img src="assets/links/email.svg" alt="Email Khan Ren" width="140" height="40"></a>
-  <a href="https://khanren00.com/Tye_Khan_Ren_CV.pdf"><img src="assets/links/cv.svg" alt="Download my CV as a PDF" width="166" height="40"></a>
-</p>
+```console
+khanren@kl:~$ whoami
+Tye Khan Ren — cybersecurity, offensive thinking, defensive experience
 
-I’m **Khan Ren**, a cybersecurity professional in **Kuala Lumpur**, currently an **Associate, Cyber Assurance at Vcyberiz**. My work brings **VAPT and red teaming** together with **threat intelligence, detection, and incident response**.
+khanren@kl:~$ cat /etc/role
+Associate, Cyber Assurance @ Vcyberiz · Kuala Lumpur, Malaysia
 
-My background at Delta Spike Asia includes SOC monitoring, shift leadership, mentoring analysts, and security dashboard development. I also co-authored **AIURLGuard**, research on explainable AI for malicious URL detection.
+khanren@kl:~$ cat focus.txt
+VAPT and red teaming  +  threat intelligence, detection and incident response
+```
 
-## Credentials
+```console
+khanren@kl:~$ ls ~/links
+```
 
-<p>
-  <a href="https://khanren00.com/#/certificates"><img src="assets/credentials/ceh.svg" alt="EC-Council Certified Ethical Hacker (CEH)" width="240" height="83"></a>
-  <a href="https://khanren00.com/#/certificates"><img src="assets/credentials/microsoft.svg" alt="Microsoft Certified: Security Operations Analyst Associate" width="240" height="83"></a>
-  <a href="https://khanren00.com/#/certificates"><img src="assets/credentials/fortinet.svg" alt="Fortinet Certified Associate Cybersecurity" width="240" height="83"></a>
-</p>
-
-[Explore all certifications →](https://khanren00.com/#/certificates)
-
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://khanren00.com/#/about"><img src="assets/projects/research.svg" alt="Illustration of URL analysis and an AI model" width="100%"></a>
-      <h3><a href="https://khanren00.com/#/about">AIURLGuard</a></h3>
-      <p>Co-authored <em>An Intelligent and Explainable AI Framework for Malicious URL Detection</em>.</p>
-      <p><code>Research</code> <code>Explainable AI</code> <code>URL security</code></p>
-      <sub>Research collaboration at Sunway University</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/khanren/Distributed_YouTube_Website"><img src="assets/projects/video.svg" alt="Illustration of a video player connected to distributed services" width="100%"></a>
-      <h3><a href="https://github.com/khanren/Distributed_YouTube_Website">Distributed YouTube Website</a></h3>
-      <p>A distributed video streaming platform built with web technologies and Firebase.</p>
-      <p><code>JavaScript</code> <code>Firebase</code> <code>HTML / CSS</code></p>
-      <sub>Web development · Academic project</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/khanren/AnonymousMe"><img src="assets/projects/anonymous.svg" alt="Illustration of an Android phone and anonymous conversations" width="100%"></a>
-      <h3><a href="https://github.com/khanren/AnonymousMe">Anonymous Me</a></h3>
-      <p>An Android community app for anonymous student posts and discussions.</p>
-      <p><code>Java</code> <code>Android</code> <code>Firebase</code></p>
-      <sub>Archived academic project</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/khanren/Massage-Web-Assignment"><img src="assets/projects/booking.svg" alt="Illustration of a service website and appointment calendar" width="100%"></a>
-      <h3><a href="https://github.com/khanren/Massage-Web-Assignment">One Paradise Massage</a></h3>
-      <p>A service and appointment website for a massage therapy business.</p>
-      <p><code>HTML</code> <code>CSS</code> <code>Web design</code></p>
-      <sub>Archived academic project</sub>
-    </td>
-  </tr>
-</table>
-
-## Tools I work with
-
-**Detection & response**
-
-<p>
-  <img src="assets/tools/cortex.svg" alt="Cortex XDR, XSIAM and XSOAR" height="29">
-  <img src="assets/tools/defender.svg" alt="Microsoft Defender" height="29">
-  <img src="assets/tools/crowdstrike.svg" alt="CrowdStrike" height="29">
-  <img src="assets/tools/stellar.svg" alt="Stellar Cyber" height="29">
-  <img src="assets/tools/splunk.svg" alt="Splunk" height="29">
-</p>
-
-**Assessment & infrastructure**
-
-<p>
-  <img src="assets/tools/burp.svg" alt="Burp Suite" height="29">
-  <img src="assets/tools/nessus.svg" alt="Nessus" height="29">
-  <img src="assets/tools/nmap.svg" alt="Nmap" height="29">
-  <img src="assets/tools/linux.svg" alt="Linux" height="29">
-  <img src="assets/tools/docker.svg" alt="Docker" height="29">
-  <img src="assets/tools/cloudflare.svg" alt="Cloudflare" height="29">
-  <img src="assets/tools/nginx.svg" alt="Nginx" height="29">
-</p>
-
-<details>
-<summary><strong>Career & education</strong> — expand the timeline</summary>
-
-### Experience
-
-| Period | Role | Organization |
-| :--- | :--- | :--- |
-| May 2026–Present | Associate, Cyber Assurance | Vcyberiz |
-| Feb 2024–Apr 2026 | Cybersecurity Analyst | Delta Spike Asia Sdn Bhd |
-| May 2023–Jan 2024 | Cybersecurity Analyst — Internship & Contract | Delta Spike Asia Sdn Bhd |
-
-At Delta Spike, I worked with Cortex XDR/XSIAM/XSOAR, Microsoft Defender and Entra ID, CrowdStrike, and Stellar Cyber. My responsibilities included customer-specific detection use cases, monthly security reporting, shift leadership, and leading the team developing a security dashboard.
-
-### Education
-
-- **BSc (Hons) Information Technology (Computer Networking and Security)** — Sunway University, January 2024–March 2026.
-- **Diploma in Information Technology** — Sunway College, August 2021–August 2023 · CGPA 3.61.
-
-</details>
+[`portfolio`](https://khanren00.com) · [`linkedin`](https://www.linkedin.com/in/khan-ren-tye-36a16424b/) · [`email`](mailto:khanren11@gmail.com) · [`cv.pdf`](https://khanren00.com/Tye_Khan_Ren_CV.pdf)
 
 ---
 
-Away from the keyboard: travel, music, and a good sci-fi, horror, or action movie.
+## `~/about`
 
-**Let’s connect:** [Portfolio](https://khanren00.com) · [LinkedIn](https://www.linkedin.com/in/khan-ren-tye-36a16424b/) · [khanren11@gmail.com](mailto:khanren11@gmail.com)
+Before Vcyberiz I spent two years at **Delta Spike Asia** in SOC monitoring: leading shifts, mentoring analysts, writing detection use cases, and leading the team that built a security dashboard. I also co-authored **AIURLGuard**, research on explainable AI for malicious URL detection.
+
+## `~/certs`
+
+```console
+khanren@kl:~$ ls certs/
+```
+
+| Certification | Issuer |
+| :--- | :--- |
+| `CEH` — Certified Ethical Hacker | EC-Council |
+| `SC-200` — Security Operations Analyst Associate | Microsoft |
+| `FCA` — Certified Associate Cybersecurity | Fortinet |
+
+[All certifications →](https://khanren00.com/#/certificates)
+
+## `~/projects`
+
+```console
+khanren@kl:~$ tree projects/
+```
+
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| [**AIURLGuard**](https://khanren00.com/#/about) | Co-authored *An Intelligent and Explainable AI Framework for Malicious URL Detection* (Sunway University) | `Research` `Explainable AI` `URL security` |
+| [**Distributed YouTube Website**](https://github.com/khanren/Distributed_YouTube_Website) | Distributed video streaming platform | `JavaScript` `Firebase` `HTML/CSS` |
+| [**Anonymous Me**](https://github.com/khanren/AnonymousMe) | Android app for anonymous student posts and discussions (archived) | `Java` `Android` `Firebase` |
+| [**One Paradise Massage**](https://github.com/khanren/Massage-Web-Assignment) | Service and appointment website (archived) | `HTML` `CSS` |
+
+## `~/toolbox`
+
+```yaml
+detection_response:  [Cortex XDR/XSIAM/XSOAR, Microsoft Defender, CrowdStrike, Stellar Cyber, Splunk]
+assessment:          [Burp Suite, Nessus, Nmap]
+infrastructure:      [Linux, Docker, Cloudflare, Nginx]
+```
+
+## `~/career`
+
+```text
+2026-05 → now      Associate, Cyber Assurance           Vcyberiz
+2024-02 → 2026-04  Cybersecurity Analyst                Delta Spike Asia
+2023-05 → 2024-01  Cybersecurity Analyst (Intern)       Delta Spike Asia
+
+edu  BSc (Hons) IT, Networking & Security   Sunway University   2024–2026
+edu  Diploma in IT (CGPA 3.61)              Sunway College      2021–2023
+```
+
+---
+
+```console
+khanren@kl:~$ echo $HOBBIES
+travel, music, sci-fi / horror / action movies
+
+khanren@kl:~$ _
+```
